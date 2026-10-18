@@ -1,0 +1,28 @@
+# Keep PDF and Word report files out of Git for this mini-project.
+*.pdf
+*.PDF
+*.docx
+*.DOCX
+# Generated-document and figure-generation scripts for this mini-project.
+/make_report.py
+/make_figures.py
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+.venv/
+env/
+.pytest_cache/
